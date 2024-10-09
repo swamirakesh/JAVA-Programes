@@ -1,0 +1,33 @@
+<?php
+function arraySearch()
+{
+    $arr=array("Rakesh","Ramesh","Sonali");
+    $src=array_search("Sonali",$arr);
+    echo $src;//It returnss index value of found data
+}
+function arrayCount()
+{
+    $arr=array("1","1");
+    echo(count($arr));
+}
+function arraySizeof()
+{
+    $arr=array("Rakesh","Ramesh");
+    echo(sizeof($arr));
+}//sizeof & count work almost same
+function anonymous()
+{
+    $sayHello = function($name) {
+        return "Hello, $name!";
+    };
+    
+    echo $sayHello("Rakesh"); // Outputs: Hello, Rakesh!
+    
+}
+//arraySearch();
+//arrayCount();
+//arraySizeof();
+//anonymous();
+
+
+?>
